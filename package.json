@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "canvas": "^2.11.0",
+    "canvas-txt": "^3.0.0",
+    "gm": "^1.25.0",
+    "google-images": "^0.1.4",
+    "jimp": "^0.22.7",
+    "mime": "^3.0.0",
+    "mime-types": "^2.1.35",
+    "puppeteer": "^19.7.5",
+    "whatsapp-web.js": "^1.19.4",
+    "yeloapi": "^1.0.8"
+  },
+  "type": "module"
+}

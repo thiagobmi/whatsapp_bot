@@ -1,0 +1,32 @@
+Comandos Atualizados 🤖:
+    
+*!meme:* envia um meme aleatório.
+    
+*!rmeme:* envia um meme aleatório em inglês.
+	
+*!g [texto]*: envia uma imagem do *google imagens* de acordo com o texto inserido
+    
+*!st*: pode ser usado como legenda de uma mídia ou como resposta a uma mensagem com mídia. Envia a mídia como figurinha.
+	
+*!st [texto]*: cria uma figurinha com o *texto* enviado.
+	
+_( *!st* tambem pode ser usado como resposta a uma mensagem de texto, para criar uma figurinha com o texto da mensagem que esta sendo respondida)_
+    
+*!r*: usado como resposta a uma figurinha ou imagem de visualização única. Reenvia a imagem da figurinha ou imagem de visualização única.
+    
+*!p*: envia um post aleatório do subreddit */r/brasil*
+    
+*!p [subreddit]*: envia um post aleatório do subreddit escolhido
+    
+*!c [lugar]:* envia informações sobre o *clima* do lugar requisitado.
+    _( *!clima [lugar]* também funciona!)_
+    
+*!gpt [pergunta]:* envia uma pergunta para a inteligência artificial OPENAI.
+    
+*!copy*:
+    	*!copy [nome]*: manda a copypasta pelo nome.
+    	*!copy list*: manda a lista de copypastas.
+    	*!copy add [nome]*: usado como resposta a uma mensagem. Cria uma copypasta com o texto da mensagem respondida.
+    	*!copy add [nome] [texto]*: cria uma copypasta com o nome e texto enviados.
+ 	
+*!stats*: envia as estatísticas do bot
