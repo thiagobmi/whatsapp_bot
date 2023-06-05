@@ -47,7 +47,7 @@ export async function mandaMemeGringo(msg) {
 
 
 export async function mandaMeme(msg) {
-    const subReddits = ["DiretoDoZapZap", "HUEstation", "AgiotasClub", "eu_nvr"];
+    const subReddits = ["HUEstation", "AgiotasClub", "eu_nvr"];
     const random = subReddits[Math.floor(Math.random() * subReddits.length)];
     try {
         await

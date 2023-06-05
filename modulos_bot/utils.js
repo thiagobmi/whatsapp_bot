@@ -45,6 +45,17 @@ _( *!clima [lugar]* também funciona!)_
 \t*!copy list*: manda a lista de copypastas.
 \t*!copy add [nome]*: usado como resposta a uma mensagem. Cria uma copypasta com o texto da mensagem respondida.
 \t*!copy add [nome] [texto]*: cria uma copypasta com o nome e texto enviados.
+\n*!roll*: envia um número aleatório de 1 a 6.
+\t*!roll [maximo]*: envia um número aleatório entre 1 e o número enviado.
+\n*!ts*: envia a Task List em uso no grupo atual.
+\t*!ts new [nome]*: cria uma nova Task List para o grupo atual.
+\t*!ts add [tarefa]*: adiciona uma nova tarefa à Task List atual.
+\t*!ts rm [numero]*: remove uma tarefa da Task List atual. O número corresponde ao mostrado ao lado da tarefa no comando *!ts*.
+\t*!ts c [numero]*: marca como realizada uma tarefa da Task List atual. O número corresponde ao mostrado ao lado da tarefa no comando *!ts*
+\t*!ts u [numero]*: desmarca como realizada uma tarefa da Task List atual. O número corresponde ao mostrado ao lado da tarefa no comando *!ts*
+\t*!ts ls*: envia a lista com todas as Task Lists do grupo atual.
+\t*!ts set [número]*: troca a Task List atual do grupo com base nos números mostrado no comando anterior.
+\t*!ts rlist [número]*: remove a lista escolhida. O número corresponde ao mostrado ao lado das listas no comando *!ts ls*
 \n*!stats*: envia as estatísticas do bot`
 
     msg.reply(mensagemComandos)

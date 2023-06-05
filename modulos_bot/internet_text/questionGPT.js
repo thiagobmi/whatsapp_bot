@@ -18,7 +18,7 @@ export async function SendQuestion(input, msg) {
                 Authorization: "Bearer " + OPENAI_API_KEY,
             },
             body: JSON.stringify({
-                model: "text-davinci-003",
+		model: "text-davinci-003",
                 prompt: sQuestion,
                 max_tokens: 2048, // tamanho da resposta
                 temperature: 0.25, // criatividade na resposta

@@ -105,7 +105,6 @@ export async function checkTarefa(msg, index) {
             msg.reply('🤖 Essa tarefa não existe.');
             return;
         }
-        console.log(index - 1);
         json[index - 1]["check"] = true;
         if (msg.fromMe) {
             fs.writeFileSync(`./modulos_bot/to_do_list/listas/me.json`, JSON.stringify(json));
